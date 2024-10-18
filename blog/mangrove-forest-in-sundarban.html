@@ -14,145 +14,292 @@
     <title>The Mangrove Forest of Sundarban – A Complete Guide | Pather Sandhane Tourism</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        .vr-style {
+            border-left: rgb(255, 225, 0) dashed 3px;
+            height: 50px;
+            width: 20px;
         }
-        .section-title {
-            color: #2c3e50;
-            font-weight: bold;
-            margin-bottom: 20px;
+
+        .bg-fade {
+            background-color: #FFFFFFA6;
         }
-        .img-responsive {
-            max-width: 100%;
-            height: auto;
+
+        .bg-fade-half {
+            background: rgb(255, 255, 255);
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.65) 50%);
+        }
+
+        .bg-fade-half {
+            background: rgb(255, 255, 255);
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.65) 50%);
+        }
+
+        #bg-fade1 {
+            background-color: #eaf0ef;
+        }
+
+        #bg-fade2 {
+            background-color: #273036;
+        }
+
+        #bg-2 {
+            background-image: url(https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #queen {
+            background-image: url(wave.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
 <body>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">Pather Sandhane Tourism</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="../">
+                <img src="../apple-icon-60x60.png" alt="" width="60" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#attractions">Attractions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#how-to-reach">How to Reach</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#conservation">Conservation Efforts</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-                </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav rounded ms-auto lead px-3 mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tour Packages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../package/1-day-sundarban-tour">1-day-sundarban-tour</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../package/1-night-2-days">1 Night 2 Days</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../package/2-night-3-days">2 Night 3 Days</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../package/3-nights-4-days">3 Night 4 Days</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../package/4-nights-5-days">4 Night 5 Days</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../package/7-days-vip-luxury-tour">7 days VIP Luxury
+                                    Tour</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../blog/">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact-us">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about-us">About Us</a>
+                    </li>
             </div>
         </div>
     </nav>
-
-    <!-- Header Image -->
     <header>
-        <div class="container">
-            <img src="path-to-image.jpg" alt="Mangrove Forest of Sundarban" class="img-responsive w-100">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8 col-md-6 col-12">
+                    <h1 class="fw-bold my-5">Forest of Sundarban: Explore the Mystical Mangrove Wilderness</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb fs-6">
+                            <li class="breadcrumb-item"><a href="../">Home</a></li>
+                            <li class="breadcrumb-item"><a href="../blog/">Blog</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Data</li>
+                        </ol>
+                    </nav>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <p class="fs-6 py-3" id="pub-date" class="lead fs-6 me-3"><strong>Published on: </strong><time
+                                    datetime="2023-01-01">January 1, 2023</time></p>
+                        </li>
+                        <li class="nav-item">
+                            <p class="fs-6 py-3" id="mod-date" class="lead fs-6 me-3"><strong>Last updated on: </strong> <time
+                                    datetime="2024-09-05">September 5, 2024</time></p>
+                        </li>
+                        <li class="nav-item">
+                            <p class="fs-6 py-3" id="mod-date" class="lead fs-6 me-3"><strong>Published by: </strong> <a
+                                    class="text-success fw-bold" href="https://bhritick.github.io/site/">Hritick B</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <p class="fs-6 py-3" class="lead fs-6">Discover the highlights of the Forest of Sundarban and its unique mangrove ecosystem.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h2 class="section-title my-5" class="fw-bold h2">Table of content</h2>
+                    <div class="card">
+                        <div class="card-body">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#attractions">Attractions</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#how-to-reach">How to Reach</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#conservation">Conservation Efforts</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#tips">Tips</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-
-    <!-- Main Content -->
-    <div class="container mt-5">
-        <!-- Introduction Section -->
-        <section id="introduction" class="mt-5">
-            <h2 class="section-title">Introduction to the Mangrove Forest of Sundarban</h2>
-            <p>The mangrove forest of Sundarban is a spectacular natural wonder located in the delta region where the Ganges, Brahmaputra, and Meghna rivers converge. Spanning across southern Bangladesh and the eastern part of India, this UNESCO World Heritage Site is renowned for its unique mangrove ecosystem, rich biodiversity, and scenic beauty.</p>
-            <p>In this comprehensive guide, we will explore the mangrove forest of Sundarban, its significance, key attractions, and conservation efforts to help you plan an unforgettable visit.</p>
-        </section>
-
-        <!-- What is the Mangrove Forest of Sundarban -->
-        <section class="mt-5">
-            <h3>What is the Mangrove Forest of Sundarban?</h3>
-            <h4>Defining the Mangrove Forest of Sundarban</h4>
-            <p>The mangrove forest of Sundarban is a vast and intricate network of tidal waterways, mudflats, and mangrove forests. This unique ecosystem is characterized by its dense mangrove trees, which are specially adapted to thrive in brackish water and saline soil.</p>
-            <h4>Key Features</h4>
-            <ul>
-                <li><strong>Biodiversity:</strong> Home to a variety of species, including the Bengal Tiger, saltwater crocodiles, and numerous bird species.</li>
-                <li><strong>Wetland Ecosystem:</strong> Features a complex network of rivers, creeks, and mudflats that create a unique habitat for flora and fauna.</li>
-                <li><strong>Natural Beauty:</strong> Offers breathtaking landscapes, including dense mangrove forests, serene waterways, and diverse wildlife.</li>
-            </ul>
-        </section>
-
-        <!-- Importance of the Mangrove Forest -->
-        <section class="mt-5">
-            <h3>Importance of the Mangrove Forest of Sundarban</h3>
-            <h4>Ecological Significance</h4>
-            <p>The mangrove forest of Sundarban is of immense ecological importance due to its role in maintaining the health of the coastal ecosystem. Mangrove trees act as a buffer against storm surges and coastal erosion, protect marine life, and contribute to the overall health of the environment.</p>
-            <h4>Economic and Social Importance</h4>
-            <ul>
-                <li><strong>Fishing:</strong> Provides a source of income for local fishermen.</li>
-                <li><strong>Honey Collection:</strong> Known for unique honey produced in the mangrove environment.</li>
-                <li><strong>Eco-Tourism:</strong> Attracts tourists, contributing to the local economy.</li>
-            </ul>
-        </section>
-
-        <!-- Attractions -->
-        <section id="attractions" class="mt-5">
-            <h2 class="section-title">Major Attractions in the Mangrove Forest of Sundarban</h2>
-            <h4>Sundarban National Park</h4>
-            <p>Sundarban National Park is the most prominent attraction. It is renowned for its diverse wildlife, especially the Bengal Tigers, saltwater crocodiles, and various bird species.</p>
-            <h4>Sajnekhali Wildlife Sanctuary</h4>
-            <p>Located near the Gateway of Sundarban, Sajnekhali Wildlife Sanctuary offers bird watching, wildlife viewing, and an interpretation center for information on the region's ecosystem.</p>
-            <h4>Piyali Island</h4>
-            <p>A scenic destination offering serene landscapes, nature walks, boat rides, and accommodation for tourists.</p>
-        </section>
-
-        <!-- How to Reach -->
-        <section id="how-to-reach" class="mt-5">
-            <h2 class="section-title">How to Explore the Mangrove Forest of Sundarban</h2>
-            <p>The best time to visit is between November and February when the weather is cooler and more comfortable for outdoor activities.</p>
-            <h4>Travel Options</h4>
-            <ul>
-                <li><strong>By Air:</strong> Fly into Netaji Subhas Chandra Bose International Airport in Kolkata and travel to the Gateway of Sundarban by road or train.</li>
-                <li><strong>By Train:</strong> Take a train to Canning or nearby stations and continue by boat.</li>
-                <li><strong>By Boat:</strong> Boat travel is essential for exploring the mangroves.</li>
-            </ul>
-        </section>
-
-        <!-- Conservation Efforts -->
-        <section id="conservation" class="mt-5">
-            <h2 class="section-title">Conservation Efforts in the Mangrove Forest of Sundarban</h2>
-            <p>Conservation efforts include establishing protected areas, anti-poaching measures, and involving local communities in sustainable practices.</p>
-            <h4>Addressing Threats</h4>
-            <ul>
-                <li><strong>Climate Change:</strong> Rising sea levels and changing weather patterns pose risks to the mangrove ecosystem.</li>
-                <li><strong>Deforestation:</strong> Illegal logging and land reclamation threaten the health of the mangroves.</li>
-                <li><strong>Pollution:</strong> Industrial pollution degrades the quality of the environment.</li>
-            </ul>
-        </section>
-
-        <!-- Tips for Visitors -->
-        <section id="tips" class="mt-5">
-            <h2 class="section-title">Tips for Visiting the Mangrove Forest of Sundarban</h2>
-            <ul>
-                <li><strong>Pack Accordingly:</strong> Lightweight clothing, sunscreen, insect repellent, and comfortable footwear are recommended.</li>
-                <li><strong>Respect Wildlife:</strong> Follow guidelines to avoid disturbing the natural habitat.</li>
-                <li><strong>Guided Tours:</strong> Opt for guided boat tours and safaris for a safe experience.</li>
-            </ul>
-        </section>
-
-        <!-- FAQ -->
-        <section id="faq" class="mt-5 mb-5">
-            <h2 class="section-title">Frequently Asked Questions (FAQ)</h2>
-            <h4>What is the best time to visit Sundarban?</h4>
-            <p>The best time to visit is between November and February.</p>
-            <h4>How can I get to Sundarban?</h4>
-            <p>You can fly into Netaji Subhas Chandra Bose International Airport in Kolkata and travel by road or train to the Gateway of Sundarban.</p>
-        </section>
-    </div>
-
-    <!-- Footer -->
-    <footer class="bg-light text-center text-lg-start mt-auto py-3">
+    <!-- Navbar -->
+    <section>
         <div class="container">
-            <p>&copy; 2024 Pather Sandhane Tourism. All rights reserved.</p>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title my-5">Introduction to the Mangrove Forest of Sundarban</h2>
+                    <p class="fs-6 py-3">The mangrove forest of Sundarban is a spectacular natural wonder located in the delta region where the Ganges, Brahmaputra, and Meghna rivers converge. Spanning across southern Bangladesh and the eastern part of India, this UNESCO World Heritage Site is renowned for its unique mangrove ecosystem, rich biodiversity, and scenic beauty.</p>
+                    <p class="fs-6 py-3">In this comprehensive guide, we will explore the mangrove forest of Sundarban, its significance, key attractions, and conservation efforts to help you plan an unforgettable visit.</p>
+                </div>
+            </div>
         </div>
-    </footer>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title my-5">What is the Mangrove Forest of Sundarban?</h2>
+                    <h3 class="h4 py-3 sub-section-title">Defining the Mangrove Forest of Sundarban</h3>
+                    <p class="fs-6 py-3">The mangrove forest of Sundarban is a vast and intricate network of tidal waterways, mudflats, and mangrove forests. This unique ecosystem is characterized by its dense mangrove trees, which are specially adapted to thrive in brackish water and saline soil.</p>
+                </div>
+                <div class="col-12">
+                    <h3 class="h4 py-3 sub-section-title">Key Features</h3>
+                    <ul class="fs-6 py-3">
+                        <li><strong>Biodiversity:</strong> Home to a variety of species, including the Bengal Tiger, saltwater crocodiles, and numerous bird species.</li>
+                        <li><strong>Wetland Ecosystem:</strong> Features a complex network of rivers, creeks, and mudflats that create a unique habitat for flora and fauna.</li>
+                        <li><strong>Natural Beauty:</strong> Offers breathtaking landscapes, including dense mangrove forests, serene waterways, and diverse wildlife.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title my-5">Importance of the Mangrove Forest of Sundarban</h2>
+                    <h3 class="h4 py-3 sub-section-title">Ecological Significance</h3>
+                    <p class="fs-6 py-3">The mangrove forest of Sundarban is of immense ecological importance due to its role in maintaining the health of the coastal ecosystem. Mangrove trees act as a buffer against storm surges and coastal erosion, protect marine life, and contribute to the overall health of the environment.</p>
+                </div>
+                <div class="col-12">
+                    <h3 class="h4 py-3 sub-section-title">Economic and Social Importance</h3>
+                    <ul class="fs-6 py-3">
+                        <li><strong>Fishing:</strong> Provides a source of income for local fishermen.</li>
+                        <li><strong>Honey Collection:</strong> Known for unique honey produced in the mangrove environment.</li>
+                        <li><strong>Eco-Tourism:</strong> Attracts tourists, contributing to the local economy.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title my-5">Major Attractions in the Mangrove Forest of Sundarban</h2>
+                </div>
+                <div class="col-md-6 col-12">
+                    <h3 class="h4 py-3 sub-section-title">Sundarban National Park</h3>
+                    <p class="fs-6 py-3">Sundarban National Park is the most prominent attraction. It is renowned for its diverse wildlife, especially the Bengal Tigers, saltwater crocodiles, and various bird species.</p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <h3 class="h4 py-3 sub-section-title">Sajnekhali Wildlife Sanctuary</h3>
+                    <p class="fs-6 py-3">Located near the Gateway of Sundarban, Sajnekhali Wildlife Sanctuary offers bird watching, wildlife viewing, and an interpretation center for information on the region's ecosystem.</p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <h3 class="h4 py-3 sub-section-title">Piyali Island</h3>
+                    <p class="fs-6 py-3">A scenic destination offering serene landscapes, nature walks, boat rides, and accommodation for tourists.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title my-5">How to Explore the Mangrove Forest of Sundarban</h2>
+                    <p class="fs-6 py-3">The best time to visit is between November and February when the weather is cooler and more comfortable for outdoor activities.</p>
+                </div>
+                <div class="col-12">
+                    <h3 class="h4 py-3 sub-section-title">Travel Options</h3>
+                    <ul class="fs-6 py-3">
+                        <li><strong>By Air:</strong> Fly into Netaji Subhas Chandra Bose International Airport in Kolkata and travel to the Gateway of Sundarban by road or train.</li>
+                        <li><strong>By Train:</strong> Take a train to Canning or nearby stations and continue by boat.</li>
+                        <li><strong>By Boat:</strong> Boat travel is essential for exploring the mangroves.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title my-5">Conservation Efforts in the Mangrove Forest of Sundarban</h2>
+                    <p class="fs-6 py-3">Conservation efforts in the mangrove forest of Sundarban include establishing protected areas, anti-poaching measures, and involving local communities in sustainable practices.</p>
+                </div>
+                <div class="col-12">
+                    <h3 class="h4 py-3 sub-section-title">Addressing Threats</h3>
+                    <ul class="fs-6 py-3">
+                        <li><strong>Climate Change:</strong> Rising sea levels and changing weather patterns pose risks to the mangrove ecosystem.</li>
+                        <li><strong>Deforestation:</strong> Illegal logging and land reclamation threaten the health of the mangroves.</li>
+                        <li><strong>Pollution:</strong> Industrial pollution degrades the quality of the environment.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title my-5">Tips for Visiting the Mangrove Forest of Sundarban</h2>
+                </div>
+                <div class="col-12">
+                    <ul class="fs-6 py-3">
+                        <li><strong>Pack Accordingly:</strong> Lightweight clothing, sunscreen, insect repellent, and comfortable footwear are recommended.</li>
+                        <li><strong>Respect Wildlife:</strong> Follow guidelines to avoid disturbing the natural habitat.</li>
+                        <li><strong>Guided Tours:</strong> Opt for guided boat tours and safaris for a safe and informative experience.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title my-5">Frequently Asked Questions (FAQ)</h2>
+                </div>
+                <div class="col-12">
+                    <div class="faq-item py-3">
+                        <h3 class="h5">What is the best time to visit Sundarban?</h3>
+                        <p class="fs-6">The best time to visit is between November and February when the weather is cooler and more comfortable for exploring.</p>
+                    </div>
+                    <div class="faq-item py-3">
+                        <h3 class="h5">How can I get to Sundarban?</h3>
+                        <p class="fs-6">You can fly into Netaji Subhas Chandra Bose International Airport in Kolkata and travel by road or train to the Gateway of Sundarban.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
