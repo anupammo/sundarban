@@ -38,7 +38,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
@@ -58,18 +58,19 @@
             width: 20px;
         } */
         .parallax {
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
-.bg-1 {
-    background-image: url(https://images.pexels.com/photos/18974570/pexels-photo-18974570/free-photo-of-deer-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1600);
-    /* background-image: url(https://images.pexels.com/photos/2606532/pexels-photo-2606532.jpeg?auto=compress&cs=tinysrgb&w=1600); */
-    background-position: center;
-}
+        .bg-1 {
+            background-image: url(https://images.pexels.com/photos/18974570/pexels-photo-18974570/free-photo-of-deer-in-forest.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            /* background-image: url(https://images.pexels.com/photos/2606532/pexels-photo-2606532.jpeg?auto=compress&cs=tinysrgb&w=1600); */
+            background-position: center;
+        }
+
         .bg-fade {
             background-color: #FFFFFFA6;
         }
@@ -106,6 +107,16 @@
             background-size: cover;
         }
     </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V86D49N5ET"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-V86D49N5ET');
+    </script>
 </head>
 
 <body>
@@ -185,14 +196,15 @@
                             <a class="btn btn-outline-light fs-5 m-2 px-4 active" href="#tour-packages">Sundarban
                                 Tour
                                 Packages</a>
-                                <a class="btn btn-outline-success active fs-5 m-2 px-4" href="sundarban-gallery">
-                                    Sundarban Gallery</a>
+                            <a class="btn btn-outline-success active fs-5 m-2 px-4" href="sundarban-gallery">
+                                Sundarban Gallery</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
     <section id="welcome">
         <div class="container">
             <div class="row">
@@ -234,6 +246,7 @@
             </div>
         </div>
     </section>
+
     <section id="explore">
         <div class="bg-1 parallax py-5">
             <div class="container pb-5">
@@ -299,6 +312,7 @@
             </div>
         </div> -->
     </section>
+
     <section class="my-5" id="tour-packages">
         <div class="container">
             <div class="row">
@@ -508,6 +522,7 @@
             </div>
         </div>
     </section>
+
     <section id="sundarban-gallery">
         <div class="bg-success-grad">
             <div class="container">
@@ -546,6 +561,7 @@
             </div>
         </div>
     </section>
+
     <section class="mt-5" id="sundarban">
         <div class="container">
             <div class="row">
@@ -593,6 +609,7 @@
             </div>
         </div>
     </section>
+
     <section class="my-5" id="best-time-to-visit">
         <div class="container">
             <div class="row">
@@ -641,6 +658,7 @@
             </div>
         </div>
     </section>
+
     <section id="seasonal-highlight">
         <div class="container">
             <div class="row">
@@ -685,6 +703,7 @@
             </div>
         </div>
     </section>
+
     <section class="" id="tour-book">
         <div class="bg-1 parallax">
             <div class="bg-success-grad">
@@ -720,6 +739,7 @@
             </div>
         </div>
     </section>
+
     <section class="my-5" id="why-sundarban">
         <div class="container">
             <div class="row">
@@ -766,6 +786,7 @@
             </div>
         </div>
     </section>
+
     <section id="unique-attractions">
         <div class="container my-5">
             <div class="row">
@@ -803,7 +824,8 @@
                                 <p class="lead fs-6">One of the best spots for wildlife viewing, the Sajnekhali
                                     Watchtower offers a chance to see tigers, deer, and a variety of birds. The tower is
                                     also home to a small museum and a crocodile park.</p>
-                                <a href="sajnekhali-watchtower" class="lead fw-bold text-success stretched-link nav-link mt-4">Read more
+                                <a href="sajnekhali-watchtower"
+                                    class="lead fw-bold text-success stretched-link nav-link mt-4">Read more
                                     ...</a>
                             </div>
                         </div>
@@ -819,7 +841,8 @@
                                 <p class="lead fs-6">This watchtower features a canopy walk that takes you above the
                                     forest, offering a bird's-eye view of the surroundings. It's a great spot for
                                     photography and bird watching.</p>
-                                <a href="./blog/dobanki-watchtower" class="lead fw-bold text-success stretched-link nav-link mt-4">Read more
+                                <a href="./blog/dobanki-watchtower"
+                                    class="lead fw-bold text-success stretched-link nav-link mt-4">Read more
                                     ...</a>
                             </div>
                         </div>
@@ -836,6 +859,7 @@
                 </div>
             </div>
     </section>
+
     <footer class="bg-dark">
         <div class="container">
             <div class="row">
